@@ -6,13 +6,16 @@ descption: tech chick 3
 
 // DO NOT EDIT: The main function to house our program code 
 function main()
+
+
 {
+    let readlineSync = require("readline-sync")
     //input
-    let a = 4
-    let b = 3
-    let c = 2
-    let d = 1
-    let f = 0
+    let a = question.readlineSync("enter the grade value")
+    let b = question.readlineSync("enter the grade value")
+    let c = question.readlineSync("enter the grade value")
+    let d = question.readlineSync("enter the grade value")
+    let f = question.readlineSync("enter the grade value")
     //process
     if(a){
         console.log(4)
