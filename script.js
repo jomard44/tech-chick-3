@@ -9,13 +9,14 @@ function main()
 
 
 {
-    let readlineSync = require("readline-sync")
+    let readlineSync = require("readline-sync");
+
     //input
-    let a = question.readlineSync("enter the grade value")
-    let b = question.readlineSync("enter the grade value")
-    let c = question.readlineSync("enter the grade value")
-    let d = question.readlineSync("enter the grade value")
-    let f = question.readlineSync("enter the grade value")
+    let a = parseFloat(question.readlineSync("enter the grade value"));
+    let b = parseFloat(question.readlineSync("enter the grade value"));
+    let c = parseFloat(question.readlineSync("enter the grade value"));
+    let d = parseFloat(question.readlineSync("enter the grade value"));
+    let f = parseFloat(question.readlineSync("enter the grade value"));
     //process
     if(a){
         console.log(4)
@@ -33,6 +34,7 @@ function main()
     }
 
     //output
+    console.log("your grade is: ")
 
 }
 
