@@ -12,11 +12,13 @@ function main()
     let readlineSync = require("readline-sync");
 
     //input
-    let a = parseFloat(question.readlineSync("enter the grade value"));
-    let b = parseFloat(question.readlineSync("enter the grade value"));
-    let c = parseFloat(question.readlineSync("enter the grade value"));
-    let d = parseFloat(question.readlineSync("enter the grade value"));
-    let f = parseFloat(question.readlineSync("enter the grade value"));
+    let gradesArya = [4,3,2,1,0];
+    let a = parseFloat(readlineSync.question("enter the grade value"));
+    let b = parseFloat(readlineSync.question("enter the grade value"));
+    let c = parseFloat(readlineSync.question("enter the grade value"));
+    let d = parseFloat(readlineSync.question("enter the grade value"));
+    let f = parseFloat(readlineSync.question("enter the grade value"));
+
     //process
     if(a){
         console.log(4)
@@ -32,6 +34,7 @@ function main()
     }else{
         console.log("the info you enterd is wrong")
     }
+
 
     //output
     console.log("your grade is: ")
